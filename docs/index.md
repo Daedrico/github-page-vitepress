@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Github Page with Vitepress"
+  name: "Github Page Vitepress"
   text: "A VitePress Site"
   tagline: My great project tagline
   actions:
@@ -20,8 +20,6 @@ features:
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature D
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
