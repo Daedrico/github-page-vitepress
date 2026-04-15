@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Stefano Brivio",
   description: "Developer from Milan",
-  base: '/github-page-vitepress/',
+  base: '/hello-sbrivio/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

@@ -1,4 +1,4 @@
-# github-page-vitepress
+# hello-sbrivio
 
 My personal site, available at [daedrico.github.io/hello-sbrivio](https://daedrico.github.io/hello-sbrivio/).
 
