@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Stefano Brivio"
   text: "Developer"
-  tagline: Building tools that solve real problems — from Milan.
+  tagline: What I do for work, what I build for fun, and a bit about who I am.
   image:
     src: /profile.png
     alt: Stefano Brivio
@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/Daedrico
+    - theme: alt
+      text: LinkedIn
+      link: https://www.linkedin.com/in/stefano-brivio-b55a4b67/
 
 features:
   - title: Tooling & Automation

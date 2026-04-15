@@ -12,7 +12,8 @@ export default defineConfig({
       { text: 'Personal Projects', link: '/projects' },
       { text: 'Work', link: '/work' },
       { text: 'About', link: '/about' },
-      { text: 'Personal', link: '/personal' }
+      { text: 'Personal', link: '/personal' },
+      { text: 'Contact', link: '/contact' }
     ],
 
     sidebar: [
@@ -31,7 +32,8 @@ export default defineConfig({
         items: [
           { text: 'Deloitte', link: '/work#deloitte' },
           { text: 'Telnext', link: '/work#telnext' },
-          { text: 'Capgemini', link: '/work#capgemini' }
+          { text: 'Capgemini', link: '/work#capgemini' },
+          { text: 'Education', link: '/work#education' }
         ]
       },
       {
@@ -40,11 +42,18 @@ export default defineConfig({
           { text: 'About me', link: '/about' },
           { text: 'Personal', link: '/personal' }
         ]
+      },
+      {
+        text: 'Contact',
+        items: [
+          { text: 'Get in touch', link: '/contact' }
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Daedrico' }
+      { icon: 'github', link: 'https://github.com/Daedrico' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/stefano-brivio-b55a4b67/' }
     ]
   }
 })
