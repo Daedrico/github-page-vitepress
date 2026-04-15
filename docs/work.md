@@ -35,5 +35,3 @@ My first role in the industry. I worked mainly on mobile and web projects for la
 - Salesforce Certified Platform Developer
 - Salesforce Certified Platform Developer II
 - Salesforce Certified Platform Development Lifecycle and Deployment Architect
-- Salesforce Certified Platform Developer II
-- Salesforce Certified Platform Development Lifecycle and Deployment Architect
