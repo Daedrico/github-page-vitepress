@@ -1,6 +1,6 @@
 # Work
 
-## <img src="/logos/deloitte.svg" alt="Deloitte" style="height:1.1em;vertical-align:middle;margin-right:0.5rem;" />
+## <img src="/logos/deloitte.svg" alt="Deloitte" style="height:1.1em;vertical-align:middle;margin-right:0.5rem;" /> {#deloitte}
 
 **Tech Team Leader** -- 2017 to present
 
@@ -18,7 +18,7 @@ Telnext was a smaller consultancy where I worked as a developer. It was acquired
 
 ---
 
-## <img src="/logos/capgemini.svg" alt="Capgemini" style="height:1.1em;vertical-align:middle;margin-right:0.5rem;" />
+## <img src="/logos/capgemini.svg" alt="Capgemini" style="height:1.1em;vertical-align:middle;margin-right:0.5rem;" /> {#capgemini}
 
 **Developer** -- 2013 to 2016
 

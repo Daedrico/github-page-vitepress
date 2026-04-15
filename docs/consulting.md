@@ -1,7 +1,5 @@
 # Consulting Experience
 
-A list of the main projects I've worked on over the years, across both Deloitte and Capgemini.
-
 ---
 
 ## MaxiCoffee

@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/projects' },
+      { text: 'Personal Projects', link: '/projects' },
       { text: 'Work', link: '/work' },
       { text: 'About', link: '/about' },
       { text: 'Personal', link: '/personal' }
@@ -17,7 +17,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Projects',
+        text: 'Personal Projects',
         items: [
           { text: 'sf-bulker', link: '/projects#sf-bulker' },
           { text: 'sf-pubsub', link: '/projects#sf-pubsub' },
