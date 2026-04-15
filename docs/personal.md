@@ -1,12 +1,18 @@
 # Personal
 
-When I'm not working or coding, I train, go to the mountains, read, and play games. Pretty simple.
+When I'm not working or coding, I train, go to the mountains, read, play games, and spend time with my cat. Pretty simple.
 
 ## Brazilian Jiu-Jitsu
 
 <img src="/bjj.png" alt="BJJ" style="width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:top center;float:right;margin:0 0 1.5rem 2rem;" />
 
 This is my main thing outside of work. I've been training for a while and I'm currently a brown belt. BJJ is one of those sports where you never really feel like you've figured it out, which is exactly what I like about it. It's physical, technical, and you have to think constantly.
+
+## Cicio
+
+<img src="/cicio.png" alt="Cicio" style="width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:80% center;float:right;margin:0 0 1.5rem 2rem;" />
+
+His name is Yago, but we call him Cicio. He's a black cat, deeply suspicious of the world in general, but completely transformed around his two humans. Terrified of everything, endlessly cuddly with us. He's also my default work companion. If I'm at the desk, he's on my lap.
 
 ## Mountains
 
