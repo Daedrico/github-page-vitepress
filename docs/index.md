@@ -21,11 +21,11 @@ hero:
       link: https://www.linkedin.com/in/stefano-brivio-b55a4b67/
 
 features:
-  - title: Tooling & Automation
-    details: CLI tools and scripts for data migration, metadata generation, and event-driven workflows. Practical, portable, and dependency-light.
-  - title: VS Code Extensions
-    details: Developer productivity extensions that bring useful insights directly into the editor, without leaving the environment you're already in.
-  - title: Node.js & JavaScript
-    details: All projects are built on native APIs with modern ESM. Clean, readable, and easy to adapt to your own workflow.
+  - title: Work
+    details: Tech Team Leader for almost ten years. Solution architecture, integrations and hands-on delivery.
+  - title: Personal Projects
+    details: Small tools I built to fix things that annoyed me at work. Usually JavaScript or Node.js, focused on doing one thing well.
+  - title: Outside of Work
+    details: Brazilian Jiu-Jitsu, mountains, video-games, fantasy & scif-fi.
 ---
 
