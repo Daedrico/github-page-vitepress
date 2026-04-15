@@ -4,6 +4,8 @@ When I'm not working or coding, I train, read, and play games. Pretty simple.
 
 ## Brazilian Jiu-Jitsu
 
+<img src="/bjj.png" alt="BJJ" style="width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:top center;float:right;margin:0 0 1.5rem 2rem;" />
+
 This is my main thing outside of work. I've been training for a while and I'm currently a brown belt. BJJ is one of those sports where you never really feel like you've figured it out, which is exactly what I like about it. It's physical, technical, and you have to think constantly.
 
 ## Video Games
