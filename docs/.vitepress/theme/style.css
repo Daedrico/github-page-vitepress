@@ -143,3 +143,7 @@
   object-fit: cover;
 }
 
+.VPFeature {
+  border-left: 3px solid var(--vp-c-brand-2) !important;
+}
+

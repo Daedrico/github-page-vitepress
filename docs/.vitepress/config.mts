@@ -9,14 +9,23 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Personal Projects', link: '/projects' },
       { text: 'Work', link: '/work' },
+      { text: 'Personal Projects', link: '/projects' },
       { text: 'About', link: '/about' },
       { text: 'Personal', link: '/personal' },
       { text: 'Contact', link: '/contact' }
     ],
 
     sidebar: [
+      {
+        text: 'Work',
+        items: [
+          { text: 'Deloitte', link: '/work#deloitte' },
+          { text: 'Telnext', link: '/work#telnext' },
+          { text: 'Capgemini', link: '/work#capgemini' },
+          { text: 'Education', link: '/work#education' }
+        ]
+      },
       {
         text: 'Personal Projects',
         items: [
@@ -25,15 +34,6 @@ export default defineConfig({
           { text: 'csv-to-object', link: '/projects#csv-to-object' },
           { text: 'SPRR VS Code Extension', link: '/projects#vs-code-rtpick-extension-sprr' },
           { text: 'thate', link: '/projects#thate' }
-        ]
-      },
-      {
-        text: 'Work',
-        items: [
-          { text: 'Deloitte', link: '/work#deloitte' },
-          { text: 'Telnext', link: '/work#telnext' },
-          { text: 'Capgemini', link: '/work#capgemini' },
-          { text: 'Education', link: '/work#education' }
         ]
       },
       {
