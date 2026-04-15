@@ -22,10 +22,10 @@ hero:
 
 features:
   - title: Tooling & Automation
-    details: CLI tools and scripts for data migration, metadata generation, and event-driven workflows — practical, portable, and dependency-light.
+    details: CLI tools and scripts for data migration, metadata generation, and event-driven workflows. Practical, portable, and dependency-light.
   - title: VS Code Extensions
     details: Developer productivity extensions that bring useful insights directly into the editor, without leaving the environment you're already in.
   - title: Node.js & JavaScript
-    details: All projects are built on native APIs with modern ESM — clean, readable, and easy to adapt to your own workflow.
+    details: All projects are built on native APIs with modern ESM. Clean, readable, and easy to adapt to your own workflow.
 ---
 

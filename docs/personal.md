@@ -20,4 +20,7 @@ Mainly RPGs. I like games with a good story and a world that feels real. The mor
 
 ## Fantasy and Science Fiction
 
-I read a lot, mostly in these two genres. Books, comics, graphic novels. I like fiction that takes its own rules seriously and builds something consistent with them.
+I read a lot, mostly in these two genres. Books, comics, graphic novels. I like fiction that takes its own rules seriously and builds something consistent with them. 
+The same goes for films: if the world is well-built, I'm in. 
+
+I also spent years playing tabletop RPGs. They hold a special place for me.
