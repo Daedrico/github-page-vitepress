@@ -6,6 +6,9 @@ hero:
   name: "Stefano Brivio"
   text: "Developer"
   tagline: Building tools that solve real problems — from Milan.
+  image:
+    src: /profile.png
+    alt: Stefano Brivio
   actions:
     - theme: brand
       text: View Projects

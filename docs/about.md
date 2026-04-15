@@ -2,11 +2,11 @@
 
 ## Hi, I'm Stefano Brivio
 
-I'm a developer based in Milan. I build tools: scripts, CLI utilities, and editor extensions that make repetitive or tedious development work faster and less error-prone.
+<img src="/profile.png" alt="Stefano Brivio" style="width:160px;border-radius:50%;float:right;margin:0 0 1.5rem 2rem;" />
 
-My focus is on practical, scope-limited projects — things that solve one problem well, run with a single command, and don't require managing extra dependencies or a GUI. Most of my side projects are JavaScript/Node.js, using native APIs where possible.
+I'm a developer based in Milan. I work as a consultant at Deloitte, where I've been for almost ten years, currently as Tech Team Leader. Most of my day-to-day involves designing and delivering software solutions for large clients, with a focus on the Salesforce platform.
 
-Part of my work involves the Salesforce platform, which is where most of the itch-scratching tools on this site came from.
+In my spare time I build small tools and publish them on GitHub. Most of them come from friction I run into at work: things that could be automated, workflows that require too many manual steps, or insights that should be one command away but aren't. They tend to be JavaScript/Node.js, small in scope, and built to solve one problem well.
 
 ## Projects
 

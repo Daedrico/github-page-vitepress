@@ -138,3 +138,8 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.VPHero .image-container img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
