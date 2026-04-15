@@ -4,19 +4,20 @@
 
 <img src="/profile.png" alt="Stefano Brivio" style="width:160px;border-radius:50%;float:right;margin:0 0 1.5rem 2rem;" />
 
-I'm a developer based in Milan. I work as a consultant at Deloitte, where I've been for almost ten years, currently as Tech Team Leader. Most of my day-to-day involves designing and delivering software solutions for large clients, with a focus on the Salesforce platform.
+I'm a developer based in Milan. I work as a consultant at Deloitte, where I've been for almost ten years, currently as Tech Team Leader. Most of my work is around the Salesforce platform: implementations, integrations, data migrations.
 
-In my spare time I build small tools and publish them on GitHub. Most of them come from friction I run into at work: things that could be automated, workflows that require too many manual steps, or insights that should be one command away but aren't. They tend to be JavaScript/Node.js, small in scope, and built to solve one problem well.
+In my spare time I build small tools and put them on GitHub. Most of them come from things that annoyed me at work and I decided to fix. They're usually JavaScript or Node.js, small, and do one thing.
 
 ## Projects
 
-The projects here grew out of friction with existing tools:
+Short version of why each project exists:
 
-- **sf-bulker** — because iterative CSV-to-Salesforce migration shouldn't require a wizard every time
-- **sf-pubsub** — because listening to Platform Events shouldn't require a full integration layer
-- **csv-to-object** — because generating field metadata by hand one row at a time doesn't scale
-- **vs-code-rtpick-extension** — because auditing picklist configurations across RecordTypes in raw XML is painful
+- **sf-bulker**: running the same Salesforce import over and over with Data Loader was painful
+- **sf-pubsub**: needed to listen to Platform Events without setting up a whole integration
+- **csv-to-object**: generating field metadata by hand gets old fast
+- **vs-code-rtpick-extension**: checking picklist values per RecordType in raw XML is no fun
+- **thate**: clients don't work with `.stf` files, they work with Excel
 
 ## Get in touch
 
-You can find all my work on [GitHub](https://github.com/Daedrico).
+All my work is on [GitHub](https://github.com/Daedrico).

@@ -1,79 +1,77 @@
 # Projects
 
-A collection of tools I've built around Salesforce development.
+Things I built on my own time, mostly to scratch an itch from work.
 
 ---
 
 ## sf-bulker
 
-**A CLI tool for importing CSV data into Salesforce using the Bulk API v2.**
+**CLI tool for importing CSV data into Salesforce via the Bulk API v2.**
 
-Salesforce Data Loader works for one-off imports, but it becomes painful for iterative migration work — re-navigating wizards, re-loading field mappings, managing a Java dependency. sf-bulker takes a different approach: the entire job is described in a JSON config file. Field mappings, the target object, the operation, and per-row transform logic are all stored as code, versioned alongside your project, and reproducible with a single command.
+Salesforce Data Loader works fine for a one-off import. For repeated migration work where you're constantly tweaking mappings and re-running the same job, it gets annoying fast. sf-bulker reads everything from a JSON config file: the object, the operation, the field mapping, any per-row transforms. Define it once and run it as many times as you need.
 
-- Config-driven: define once in `config.json`, run as many times as needed
-- No Java, no GUI — just Node.js 18+
-- OAuth 2.0 client credentials flow, safe to run unattended
-- Per-row `rowTransform` functions for cleaning, remapping, or recalculating fields before upload
-- Outputs timestamped success/failure CSVs after each job
+- Config in `config.json`, versioned alongside your project
+- No Java, just Node.js 18+
+- OAuth 2.0 client credentials, no browser needed
+- `rowTransform` functions let you clean or remap data before upload
+- Outputs timestamped success/failure CSVs
 
-[View on GitHub →](https://github.com/Daedrico/sf-bulker)
+[View on GitHub](https://github.com/Daedrico/sf-bulker)
 
 ---
 
 ## sf-pubsub
 
-**A Node.js listener for Salesforce Platform Events via the gRPC Pub/Sub API.**
+**Node.js listener for Salesforce Platform Events via the gRPC Pub/Sub API.**
 
-Connects to your Salesforce org using OAuth client credentials and subscribes to any Platform Event. Incoming payloads are enhanced with a human-readable `CreatedDateTime` field and saved to timestamped files in a `payloads/` directory — no setup beyond a `.env` file.
+Connects to a Salesforce org using OAuth client credentials and subscribes to any Platform Event. Payloads get saved to timestamped files. Setup is just a `.env` file.
 
-- Subscribes from the earliest available event to avoid missing data
-- Configurable event path via environment variables
-- Auto-creates the output directory on first run
-- Payload output: pretty-printed JSON, one file per minute
+- Subscribes from the earliest available event
+- Event path configurable via env var
+- Output is pretty-printed JSON, one file per minute
 
-[View on GitHub →](https://github.com/Daedrico/sf-pubsub)
+[View on GitHub](https://github.com/Daedrico/sf-pubsub)
 
 ---
 
 ## csv-to-object
 
-**Node.js scripts that generate Salesforce metadata XML from CSV input files.**
+**Node.js scripts that generate Salesforce metadata XML from CSV files.**
 
-Takes structured CSV files as input and produces ready-to-deploy Salesforce metadata: CustomObject field definitions and CustomMetadata records. Useful during implementation projects where fields or records need to be defined in bulk.
+Give it a CSV, get back Salesforce metadata ready to deploy. Handles CustomObject field definitions and CustomMetadata records.
 
-- `npm run fields` — generates a `CustomObject` XML file with field definitions from a CSV
-- `npm run cm` — generates one CustomMetadata file per row in the input CSV
-- Supports Text, Currency, Number, Date, Picklist, and MultiselectPicklist field types
+- `npm run fields` generates a `CustomObject` XML with field definitions
+- `npm run cm` generates one CustomMetadata file per CSV row
+- Supports Text, Currency, Number, Date, Picklist, MultiselectPicklist
 
-[View on GitHub →](https://github.com/Daedrico/csv-to-object)
+[View on GitHub](https://github.com/Daedrico/csv-to-object)
 
 ---
 
 ## vs-code-rtpick-extension (SPRR)
 
-**A VS Code extension that shows which picklist values are enabled per RecordType.**
+**VS Code extension that shows which picklist values are enabled per RecordType.**
 
-Working with Salesforce `.object-meta.xml` files and needing to audit picklist configurations across RecordTypes is tedious when done manually. SPRR (Salesforce Picklist by RecordType Report) parses the active metadata file and opens an interactive panel directly in the editor — no files written to disk.
+Open a `.object-meta.xml` file, run `SPRR: Create report` from the Command Palette, and get an interactive table showing all RecordTypes and their enabled picklist values. No files written to disk.
 
-- Select any picklist field from a dropdown
-- View a table with one column per RecordType and enabled values listed below
-- Theme-aware: adapts to VS Code light and dark mode
-- Trigger via Command Palette: `SPRR: Create report`
+- Dropdown to select any picklist field by API name
+- One column per RecordType
+- Adapts to VS Code light and dark mode
 
-[View on GitHub →](https://github.com/Daedrico/vs-code-rtpick-extension)
+[View on GitHub](https://github.com/Daedrico/vs-code-rtpick-extension)
 
 ---
 
 ## thate
 
-**A CLI tool for converting Salesforce translation files between `.stf` and `.xlsx`.**
+**CLI tool for converting Salesforce translation files between `.stf` and `.xlsx`.**
 
-The name is short for "translation hate". Managing Salesforce translation files is tedious: the `.stf` format is not something clients can work with directly, and the manual round-trip between `.stf` and Excel is error-prone. thate handles the conversion in both directions from the command line.
+The name is short for "translation hate". Clients work in Excel, Salesforce works with `.stf` files. thate converts in both directions.
 
-- `thate excel` converts `.stf` files to `.xlsx`
-- `thate stf` converts `.xlsx` files back to `.stf`
-- `--omit` flag strips already-translated values from the Excel output, useful when sending files out for a second-pass review
-- Config file (`.thate.json`) lets you set input/output paths and filter out unwanted translation entries
-- Available on npm, installable globally or as a project dependency
+- `thate excel` converts `.stf` to `.xlsx`
+- `thate stf` converts `.xlsx` back to `.stf`
+- `--omit` flag strips already-translated values from the Excel output
+- Config file to set paths and filter unwanted entries
+- Available on npm
 
-[View on GitHub →](https://github.com/Daedrico/thate) · [View on npm →](https://www.npmjs.com/package/thate)
+[View on GitHub](https://github.com/Daedrico/thate) · [View on npm](https://www.npmjs.com/package/thate)

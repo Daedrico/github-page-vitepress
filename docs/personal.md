@@ -1,0 +1,15 @@
+# Personal
+
+When I'm not working or coding, I train, read, and play games. Pretty simple.
+
+## Brazilian Jiu-Jitsu
+
+This is my main thing outside of work. I've been training for a while and I'm currently a brown belt. BJJ is one of those sports where you never really feel like you've figured it out, which is exactly what I like about it. It's physical, technical, and you have to think constantly.
+
+## Video Games
+
+Mainly RPGs. I like games with a good story and a world that feels real. The more lore, the better.
+
+## Fantasy and Science Fiction
+
+I read a lot, mostly in these two genres. Books, comics, graphic novels. I like fiction that takes its own rules seriously and builds something consistent with them.
