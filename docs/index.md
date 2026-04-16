@@ -25,4 +25,3 @@ features:
   - title: Outside of Work
     details: Brazilian Jiu-Jitsu, mountains, video-games, fantasy & scif-fi.
 ---
-
