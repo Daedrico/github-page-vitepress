@@ -11,14 +11,11 @@ hero:
     alt: Stefano Brivio
   actions:
     - theme: brand
-      text: View Projects
-      link: /projects
+      text: Work
+      link: /work
     - theme: alt
-      text: GitHub
-      link: https://github.com/Daedrico
-    - theme: alt
-      text: LinkedIn
-      link: https://www.linkedin.com/in/stefano-brivio-b55a4b67/
+      text: About Me
+      link: /about
 
 features:
   - title: Work
