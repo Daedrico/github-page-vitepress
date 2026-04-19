@@ -6,7 +6,7 @@
 
 I'm a developer based in Milan. I work as a consultant at Deloitte, where I've been for almost ten years, currently as Tech Team Leader. I design solution architectures, define integration patterns, lead technical teams, and follow through on delivery, working directly with clients to translate requirements into technical decisions.
 
-In my spare time I build small tools and put them on GitHub. Most of them come from things that annoyed me at work and I decided to fix. They're usually JavaScript or Node.js, small, and do one thing.
+In my spare time I build small tools and put them on GitHub. Most of them come from things that annoyed me and I decided to fix.
 
 ## Personal Projects
 
