@@ -7,12 +7,13 @@ import TechBadge from './components/TechBadge.vue'
 import ProjectGrid from './components/ProjectGrid.vue'
 import WorkTimeline from './components/WorkTimeline.vue'
 import TechStack from './components/TechStack.vue'
+import AnimatedHeroText from './components/AnimatedHeroText.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'home-hero-info': () => h(AnimatedHeroText)
     })
   },
   enhanceApp({ app }) {
