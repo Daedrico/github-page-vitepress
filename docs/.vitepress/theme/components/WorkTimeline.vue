@@ -22,15 +22,15 @@
         <h3>Education</h3>
         <p>
           <strong>Master's Degree in Computer Engineering</strong><br />
-          Politecnico di Milano, 2023
+          Politecnico di Milano, 2013
         </p>
       </div>
       <div class="wt-section">
         <h3>Certifications</h3>
         <ul>
-          <li>Salesforce Certified Platform Developer</li>
+          <li>Salesforce Certified Platform Developer I</li>
           <li>Salesforce Certified Platform Developer II</li>
-          <li>Salesforce Certified Platform Development Lifecycle and Deployment Architect</li>
+          <li>Salesforce Certified Development Lifecycle & Deployment</li>
         </ul>
       </div>
     </div>
