@@ -4,7 +4,7 @@
 
 <img src="/profile.png" alt="Stefano Brivio" style="width:160px;border-radius:50%;float:right;margin:0 0 1.5rem 2rem;" />
 
-I'm a developer based in Milan. I work as a consultant at Deloitte, where I've been for almost ten years, currently as Tech Team Leader. I design solution architectures, define integration patterns, lead technical teams, and follow through on delivery, working directly with clients to translate requirements into technical decisions.
+I'm a developer/tech lead based in Milan. I design solution architectures, define integration patterns, lead technical teams, and follow through on delivery, working directly with clients to translate requirements into technical decisions.
 
 In my spare time I build small tools and put them on GitHub. Most of them come from things that annoyed me and I decided to fix.
 
