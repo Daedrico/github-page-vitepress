@@ -16,7 +16,7 @@ Short version of why each project exists:
 - **sf-pubsub**: needed to listen to Platform Events without setting up a whole integration
 - **csv-to-object**: generating field metadata by hand gets old fast
 - **vs-code-rtpick-extension**: checking picklist values per RecordType in raw XML is no fun
-- **thate**: clients don't work with `.stf` files, they work with Excel
+- **thate**: people don't work with `.stf` files, they work with Excel
 
 ## Get in touch
 
